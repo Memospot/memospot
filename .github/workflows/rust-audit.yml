@@ -18,7 +18,7 @@ jobs:
     permissions: { issues: write, checks: write }
     steps:
       - name: Checkout repository
-        uses: actions/checkout@d632683dd7b4114ad314bca15554477dd762a938
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 
       - name: Rust audit
         uses: rustsec/audit-check@69366f33c96575abad1ee0dba8212993eecbe998
